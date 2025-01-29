@@ -11,9 +11,9 @@
 
 
 
-    <div class="card text-center w-50 mx-auto ">
-        <div class="card-header text-start">
-          Payment for example
+    <div class="card text-center w-50 mx-auto mt-5 ">
+        <div class="card-header text-start fs-2 fw-bold">
+          Payment form example
         </div>
         <div class="card-body">
             <div class="alert alert-danger text-start" role="alert">
@@ -91,11 +91,11 @@
                 <div class="row text-start">
                   <div class="w-50">
                     <p>We accept:</p>
-                    <div class="mb-3 col-7 bg-secondary w-30 rounded d-flex justify-content-between p-2 ms-1">
-                      <input type="radio"><i class="fa-brands fa-cc-mastercard bg-secondary text-white fs-6"></i>
-                      <input type="radio">  <i class="fa-brands fa-cc-visa bg-secondary text-white fs-6"></i>
-                      <input type="radio"> <i class="fa-brands fa-cc-diners-club bg-secondary text-white fs-6"></i>
-                      <input type="radio"> <i class="fa-regular fa-credit-card bg-secondary text-white fs-6"></i>
+                    <div class="mb-3 col-6 bg-secondary w-30 rounded d-flex justify-content-between p-2 ms-1">
+                      <input type="radio" name="botonitos"><i class="fa-brands fa-cc-mastercard bg-secondary text-white fs-6"></i>
+                      <input type="radio" name="botonitos">  <i class="fa-brands fa-cc-visa bg-secondary text-white fs-6"></i>
+                      <input type="radio" name="botonitos"> <i class="fa-brands fa-cc-diners-club bg-secondary text-white fs-6"></i>
+                      <input type="radio" name="botonitos"> <i class="fa-regular fa-credit-card bg-secondary text-white fs-6"></i>
                     </div>
                   </div>
                   <div class="mb-3 col-6">
@@ -129,8 +129,11 @@
 
 
         
-        <div class="card-footer text-muted">
-          2 days ago
+        <div class="card-footer text-muted text-end">
+          <div class="botones">
+            <button type="submit" class="btn btn-secondary b1">Cancel</button>
+            <button type="reset" class="btn btn-primary b2">Send</button>
+        </div>
         </div>
       </div>
     
